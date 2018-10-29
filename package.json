@@ -1,15 +1,16 @@
 {
   "name": "eslint-config-bonzai",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Bonzai ESLint shareable config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bonzaico/eslint-config-bonzai.git"
+    "url": "https://github.com/bonzaico/eslint-config-bonzai.git"
   },
   "keywords": [
     "eslint",
