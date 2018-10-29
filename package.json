@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-bonzai",
+  "version": "1.0.0",
+  "description": "Bonzai ESLint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonzaico/eslint-config-bonzai.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "bonzai",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bonzaico/eslint-config-bonzai/issues"
+  },
+  "homepage": "https://github.com/bonzaico/eslint-config-bonzai#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.8.0"
+  }
+}
