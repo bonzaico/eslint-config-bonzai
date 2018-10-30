@@ -20,7 +20,11 @@
     "javascript",
     "styleguide"
   ],
-  "author": "",
+  "author": {
+    "name": "Bonzai Digital",
+    "email": "opensource@bonzai.co",
+    "url": "https://www.bonzai.co"
+  },
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/bonzaico/eslint-config-bonzai/issues"
