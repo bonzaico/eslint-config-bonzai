@@ -4,83 +4,84 @@ module.exports = {
             "error",
             4,
             {
-                "SwitchCase": 1
+                "SwitchCase": "warn"
             }
         ],
-        "brace-style": 2,
-        "camelcase": 0,
-        "comma-spacing": 2,
-        "comma-style": [2, "last"],
-        "consistent-this": 0,
-        "eol-last": 2,
-        "func-call-spacing": [2, "never"],
-        "func-names": 0,
-        "func-style": 0,
+        "block-spacing": ["error", "always"],
+        "brace-style": "error",
+        "camelcase": "error",
+        "comma-spacing": "error",
+        "comma-style": ["error", "last"],
+        "consistent-this": "off",
+        "eol-last": "error",
+        "func-call-spacing": ["error", "never"],
+        "func-names": "off",
+        "func-style": "off",
         "key-spacing": [
-            2,
+            "error",
             {
                 "beforeColon": false,
                 "afterColon": true
             }
         ],
-        "linebreak-style": 2,
+        "linebreak-style": "error",
         "max-nested-callbacks": [
-            1,
+            "warn",
             {
                 "max": 5
             }
         ],
         "new-cap": [
-            2,
+            "error",
             {
                 "newIsCap": true,
                 "capIsNew": false
             }
         ],
-        "new-parens": 0,
-        "no-array-constructor": 0,
-        "no-inline-comments": 0,
-        "no-lonely-if": 2,
-        "no-mixed-spaces-and-tabs": 2,
-        "no-multiple-empty-lines": 2,
-        "no-nested-ternary": 0,
-        "no-new-object": 0,
-        "semi-spacing": 2,
-        "no-spaced-func": 2,
-        "no-ternary": 0,
-        "no-trailing-spaces": 2,
-        "no-underscore-dangle": 0,
-        "no-extra-parens": [2, "functions"],
-        "one-var": 0,
-        "operator-assignment": 0,
-        "padded-blocks": [2, "never"],
-        "quotes": [2, "double"],
-        "semi": 2,
-        "sort-vars": 0,
+        "new-parens": "error",
+        "no-array-constructor": "off",
+        "no-inline-comments": "off",
+        "no-lonely-if": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-multiple-empty-lines": "error",
+        "no-nested-ternary": "off",
+        "no-new-object": "off",
+        "semi-spacing": "error",
+        "no-spaced-func": "error",
+        "no-ternary": "off",
+        "no-trailing-spaces": "error",
+        "no-underscore-dangle": "off",
+        "no-extra-parens": ["error", "functions"],
+        "one-var": "off",
+        "operator-assignment": "off",
+        "padded-blocks": ["error", "never"],
+        "quotes": ["error", "double"],
+        "semi": "error",
+        "sort-vars": "off",
         "space-before-function-paren": [
-            2,
+            "error",
             {
                 "named": "never",
                 "anonymous": "always"
             }
         ],
-        "keyword-spacing": 2,
-        "space-before-blocks": 2,
-        "object-curly-spacing": [2, "always"],
-        "array-bracket-spacing": [2, "never"],
-        "space-in-parens": [2, "never"],
-        "space-infix-ops": 2,
-        "space-return-throw-case": 0,
-        "space-unary-ops": 0,
-        "spaced-line-comment": 0,
-        "wrap-regex": 0,
+        "keyword-spacing": "error",
+        "space-before-blocks": "error",
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"],
+        "space-in-parens": ["error", "never"],
+        "space-infix-ops": "error",
+        "space-return-throw-case": "off",
+        "space-unary-ops": "off",
+        "spaced-line-comment": "off",
+        "wrap-regex": "off",
 
         // specify the maximum depth that blocks can be nested (off by default)
-        "max-depth": [2, 4],
+        "max-depth": ["error", 4],
 
         // specify the maximum length of a line in your program (off by default)
         "max-len": [
-            1,
+            "warn",
             90,
             4,
             {
@@ -93,15 +94,15 @@ module.exports = {
         ],
 
         // limits the number of parameters that can be used in the function declaration. (off by default)
-        "max-params": [2, 7],
+        "max-params": ["error", 7],
 
         // specify the maximum number of statement allowed in a function (off by default)
-        "max-statements": [1, 40],
+        "max-statements": ["warn", 40],
 
         // disallow use of bitwise operators (off by default)
-        "no-bitwise": 2,
+        "no-bitwise": "error",
 
         // disallow use of unary operators ++ and -- (off by default)
-        "no-plusplus": 0
+        "no-plusplus": "off"
     }
 };
