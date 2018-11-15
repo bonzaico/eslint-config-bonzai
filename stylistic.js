@@ -4,7 +4,7 @@ module.exports = {
             "error",
             4,
             {
-                "SwitchCase": "warn"
+                "SwitchCase": 1
             }
         ],
         "block-spacing": ["error", "always"],

@@ -7,10 +7,8 @@ module.exports = {
     extends: [
         "eslint:recommended",
         "./stylistic.js",
-        "./variables.js",
         "./best-practices.js",
         "./possible-errors.js",
-        "./legacy.js",
         "./node.js",
         "./weak-fp.js",
         "./import/index.js",
