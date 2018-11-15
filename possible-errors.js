@@ -1,81 +1,80 @@
-const ERR = "error";
-const WARN = "warn";
-const OFF = "off";
-
 module.exports = {
     "rules": {
         // disallow trailing commas in object literals
-        "comma-dangle": [ERR, "never"],
+        "comma-dangle": ["error", "never"],
 
         // disallow assignment in conditional expressions
-        "no-cond-assign": ERR,
+        "no-cond-assign": "error",
 
         // disallow use of console (off by default in the node environment)
-        "no-console": WARN,
+        "no-console": "warn",
 
         // disallow use of constant expressions in conditions
-        "no-constant-condition": ERR,
+        "no-constant-condition": "error",
 
         // disallow control characters in regular expressions
-        "no-control-regex": OFF,
+        "no-control-regex": "off",
 
         // disallow use of debugger
-        "no-debugger": ERR,
+        "no-debugger": "error",
 
         // disallow duplicate keys when creating object literals
-        "no-dupe-keys": ERR,
+        "no-dupe-keys": "error",
 
         // disallow empty statements
-        "no-empty": ERR,
+        "no-empty": "error",
 
         // disallow the use of empty character classes in regular expressions
-        "no-empty-class": OFF,
+        "no-empty-character-class": "off",
 
         // disallow assigning to the exception in a catch block
-        "no-ex-assign": OFF,
+        "no-ex-assign": "error",
 
         // disallow double-negation boolean casts in a boolean context
-        "no-extra-boolean-cast": ERR,
+        "no-extra-boolean-cast": "error",
 
         // disallow unnecessary semicolons
-        "no-extra-semi": ERR,
+        "no-extra-semi": "error",
 
         // disallow overwriting functions written as function declarations
-        "no-func-assign": ERR,
+        "no-func-assign": "error",
 
         // disallow function or variable declarations in nested blocks
-        "no-inner-declarations": [ERR, "functions"],
+        "no-inner-declarations": ["error", "functions"],
 
         // disallow invalid regular expression strings in the RegExp constructor
-        "no-invalid-regexp": ERR,
+        "no-invalid-regexp": "error",
 
         // disallow irregular whitespace outside of strings and comments
-        "no-irregular-whitespace": ERR,
+        "no-irregular-whitespace": "error",
 
         // disallow negation of the left operand of an in expression
-        "no-negated-in-lhs": WARN,
+        "no-negated-in-lhs": "warn",
 
         // disallow the use of object properties of the global object (Math and JSON) as functions
-        "no-obj-calls": ERR,
+        "no-obj-calls": "error",
 
         // disallow multiple spaces in a regular expression literal
-        "no-regex-spaces": WARN,
+        "no-regex-spaces": "warn",
 
         // disallow reserved words being used as object literal keys (off by default)
-        "quote-props": OFF,
+        "quote-props": "off",
 
         // disallow sparse arrays
-        "no-sparse-arrays": ERR,
+        "no-sparse-arrays": "error",
+
+        "no-unexpected-multiline": "error",
+
         // disallow unreachable statements after a return throw continue or break statement
-        "no-unreachable": ERR,
+        "no-unreachable": "error",
 
         // disallow comparisons with the value NaN
-        "use-isnan": ERR,
+        "use-isnan": "error",
 
         // Ensure JSDoc comments are valid (off by default)
-        "valid-jsdoc": OFF,
+        "valid-jsdoc": "off",
 
         // Ensure that the results of typeof are compared against a valid string
-        "valid-typeof": ERR
+        "valid-typeof": "error"
     }
 };
