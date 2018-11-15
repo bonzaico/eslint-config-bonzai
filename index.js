@@ -12,7 +12,7 @@ module.exports = {
         "./possible-errors.js",
         "./legacy.js",
         "./node.js",
-        "./weak-fp.js"
+        "./weak-fp.js",
         "./import/index.js",
         "./es6/index.js"
     ],
