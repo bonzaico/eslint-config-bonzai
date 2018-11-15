@@ -23,7 +23,6 @@ module.exports = {
         "fp/no-rest-parameters": "error",
         "fp/no-this": "error",
         "fp/no-throw": "error",
-        "fp/no-unused-expression": "error",
         "fp/no-valueof-field": "error",
 
         "fp/no-mutation": [

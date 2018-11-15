@@ -1,13 +1,13 @@
 module.exports = {
     plugins: ["import"],
     env: {
-        es6: true,
+        es6: true
     },
     parserOptions: {
         ecmaVersion: 2018,
-        sourceType: "module",
+        sourceType: "module"
     },
     settings: {
-        "import/ignore": ["node_modules", ".json$", ".(scss|less|css|styl)$"],
-    },
+        "import/ignore": ["node_modules", ".json$", ".(scss|less|css|styl)$"]
+    }
 };

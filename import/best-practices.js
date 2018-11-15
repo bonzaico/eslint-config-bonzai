@@ -12,5 +12,5 @@ module.exports = {
         "import/no-unassigned-import": "off", // Hope we can add this some day.
         "import/no-webpack-loader-syntax": "error",
         "import/no-relative-parent-imports": "warn"
-    },
+    }
 };
